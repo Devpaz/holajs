@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>HOLA JS</title>
+	<head>
+		<meta charset="utf-8">
+	</head>
 </head>
 <body>
 	<h1>Bienvenido a JS</h1>
-	<p>este es un parrafo </p>
+	<p id="miParrafo">este es un parrafo </p>
 	<script type="text/javascript">
-		alert("Hola");
+		window.alert("Hola");
+		document.write("<h2>HOLA JS</h2>");
+		document.getElementById("miParrafo").innerHTML="parrafo cambia";
+		console.log("texto para la consola");
 	</script>
 </body>
 </html>
